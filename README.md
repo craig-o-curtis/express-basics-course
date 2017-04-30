@@ -1,27 +1,26 @@
 ## Express Demo from Treehouse Course
 
-
 # install node dependencies
-npm install
+    npm install
 
 # view the app
-# Note: to develop, see instructions below
-node src
+    node src
+
 ```
 
 ## Developing
 ```
 # make sure you have some popular node tools installed
-npm install -g nodemon
-npm install -g node-inspector
+    npm install -g nodemon
+    npm install -g node-inspector
 
-# have nodemon run the app in one terminal tab
-# nodemon will watch for file changes in the express app
-# and restart the server
-nodemon --debug src
+have nodemon run the app in one terminal tab
+nodemon will watch for file changes in the express app
+restart the server
+    nodemon --debug src
 
 # run the debugger in another terminal
 # node-inspector will break the application when a break point
-# or `debugger` statement is reached in the JavaScript
+or `debugger` statement is reached in the JavaScript
 node-inspector
 ```
